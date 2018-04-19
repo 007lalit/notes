@@ -1,6 +1,6 @@
 * full stack
 
-1. We have one server that has the everything [viirtual private server]
+1. We have one server that has the everything [virtual private server]
 and then the second server that houses the testing framework
 VPS has the OS.
 The OS has the Web Server[nginx] - it has an engine to run the code. For eg, we can use WSGI Server to run python code (eg. gunicorn), the web server can take the code/other dependencies from github  etc. there are also the static files, key value datastores etc that are in the OS and are used by the server.
